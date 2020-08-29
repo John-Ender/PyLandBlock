@@ -18,7 +18,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "burner-soil-extractor",
-    icon = "__PyLandBlock__/graphics/icons/soil-extractormk00.png",
+    icon = "__pylandblock__/graphics/icons/soil-extractormk00.png",
     icon_size = 64,
     flags = {},
     subgroup = "py-extraction",
@@ -30,7 +30,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "burner-soil-extractor",
-    icon = "__PyLandBlock__/graphics/icons/soil-extractormk00.png",
+    icon = "__pylandblock__/graphics/icons/soil-extractormk00.png",
     icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "burner-soil-extractor"},

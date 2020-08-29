@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "early-copper-mine",
-    icon = "__PyLandBlock__/graphics/icons/mega-copper-00.png",
+    icon = "__pylandblock__/graphics/icons/mega-copper-00.png",
 	icon_size = 64,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "early-copper-mine",
-    icon = "__PyLandBlock__/graphics/icons/mega-copper-00.png",
+    icon = "__pylandblock__/graphics/icons/mega-copper-00.png",
 	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "early-copper-mine"},

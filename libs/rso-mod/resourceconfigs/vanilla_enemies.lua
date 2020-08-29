@@ -1,4 +1,4 @@
-require "__PyLandBlock__/libs/rso-mod/rso-settings"
+require "__pylandblock__/libs/rso-mod/rso-settings"
 
 function fillEnemies(config)
 	

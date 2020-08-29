@@ -34,7 +34,7 @@ data:extend(
 	{
 	type = "item",
 	name = "wrought-iron-pipe",
-	icon = "__PyLandBlock__/graphics/pipe.png",
+	icon = "__pylandblock__/graphics/pipe.png",
 	icon_size = 32,
 	flags = {},
 	subgroup = "energy-pipe-distribution",
@@ -45,7 +45,7 @@ data:extend(
 	{
     type = "item",
     name = "wrought-iron-gear-wheel",
-    icon = "__PyLandBlock__/graphics/iron-gear-wheel.png",
+    icon = "__pylandblock__/graphics/iron-gear-wheel.png",
     icon_size = 32,
     flags = {},
     subgroup = "intermediate-product",

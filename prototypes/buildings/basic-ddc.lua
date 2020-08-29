@@ -66,7 +66,7 @@ RECIPE {
 ITEM {
 	type = "item",
 	name = "basic-ddc",
-	icon = "__PyLandBlock__/graphics/icons/distilator-mk00.png",
+	icon = "__pylandblock__/graphics/icons/distilator-mk00.png",
 	icon_size = 64,
     flags = {},
     subgroup = "coal-processing",
@@ -78,7 +78,7 @@ ITEM {
 ENTITY {
     type = "assembling-machine",
     name = "basic-ddc",
-    icon = "__PyLandBlock__/graphics/icons/distilator-mk00.png",
+    icon = "__pylandblock__/graphics/icons/distilator-mk00.png",
     icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     --ingredient_count = 20,
@@ -164,7 +164,7 @@ ENTITY {
       animation = make_2way_animation_from_spritesheet({ layers =
         {
           {
-            filename = "__PyLandBlock__/graphics/hr-basic-ddc.png",
+            filename = "__pylandblock__/graphics/hr-basic-ddc.png",
             priority = "extra-high",
             width = 219,
             height = 215,
@@ -173,7 +173,7 @@ ENTITY {
             scale = 0.5,
             hr_version =
             {
-              filename = "__PyLandBlock__/graphics/hr-basic-ddc.png",
+              filename = "__pylandblock__/graphics/hr-basic-ddc.png",
               priority = "extra-high",
               width = 219,
               height = 215,

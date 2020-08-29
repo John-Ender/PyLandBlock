@@ -5,7 +5,7 @@ data:extend(
 	{
     type = "pipe",
     name = "wrought-iron-pipe",
-    icon = "__PyLandBlock__/graphics/pipe.png",
+    icon = "__pylandblock__/graphics/pipe.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "wrought-iron-pipe"},

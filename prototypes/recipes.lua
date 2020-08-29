@@ -572,7 +572,7 @@ RECIPE {
         {type = "item", name = "raw-coal", amount = 4}
     },
     main_product = "coal-gas",
-    icon = "__PyLandBlock__/graphics/icons/coalgas-from-seaweed.png",
+    icon = "__pylandblock__/graphics/icons/coalgas-from-seaweed.png",
     icon_size = 64,
     subgroup = "py-syngas",
     order = "f"

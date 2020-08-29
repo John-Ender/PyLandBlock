@@ -1,7 +1,7 @@
 {
 	"name": "pylandblock",
-	"version": "0.1.0",
-	"factorio_version": "1.0.0",
+	"version": "0.1.1",
+	"factorio_version": "1.0",
 	"title": "Py Land Block",
 	"author": "Razahin",
 	"contact": "PM on the Factorio Forums",

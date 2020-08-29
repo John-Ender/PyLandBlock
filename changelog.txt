@@ -7,3 +7,9 @@ Date: 2020-08-28
     - Remove all resource autospawning, create PyRawOres rocks with modified RSO
     - Quick Start - Starting personal bots and equipment. Automation, Logistics, and Steel Processing technologies unlocked at the start. 
       The game is about automation, the player shouldn't have to slog for 10 hours to do the basics.
+      
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2020-08-28
+  Changes:
+    - Bug fix initial load from name change

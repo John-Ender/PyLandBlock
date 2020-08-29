@@ -19,7 +19,7 @@ RECIPE {
 ITEM {
     type = "item",
     name = "cheap-iron-mine",
-    icon = "__PyLandBlock__/graphics/icons/mega-iron-00.png",
+    icon = "__pylandblock__/graphics/icons/mega-iron-00.png",
 	icon_size = 64,
     flags = {},
     subgroup = "py-rawores-mines",
@@ -31,7 +31,7 @@ ITEM {
 ENTITY {
     type = "mining-drill",
     name = "cheap-iron-mine",
-    icon = "__PyLandBlock__/graphics/icons/mega-iron-00.png",
+    icon = "__pylandblock__/graphics/icons/mega-iron-00.png",
 	  icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "cheap-iron-mine"},

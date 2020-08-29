@@ -4,7 +4,7 @@ data:extend(
 	{
     type = "fluid",
     name = "butanol",
-    icon = "__PyLandBlock__/graphics/icons/butanol.png",
+    icon = "__pylandblock__/graphics/icons/butanol.png",
     icon_size = 64,
     default_temperature = 15,
     heat_capacity = "1KJ",
@@ -18,7 +18,7 @@ data:extend(
 	{
     type = "fluid",
     name = "phosphorus-tricloride",
-    icon = "__PyLandBlock__/graphics/icons/phosphorus-trichloride.png",
+    icon = "__pylandblock__/graphics/icons/phosphorus-trichloride.png",
     icon_size = 64,
     default_temperature = 15,
     heat_capacity = "1KJ",
@@ -32,7 +32,7 @@ data:extend(
 	{
     type = "fluid",
     name = "phosphoryl-chloride",
-    icon = "__PyLandBlock__/graphics/icons/phosphoryl-chloride.png",
+    icon = "__pylandblock__/graphics/icons/phosphoryl-chloride.png",
     icon_size = 64,
     default_temperature = 15,
     heat_capacity = "1KJ",
@@ -46,7 +46,7 @@ data:extend(
 	{
     type = "fluid",
     name = "tributyl-phosphate",
-    icon = "__PyLandBlock__/graphics/icons/tributyl-phosphate.png",
+    icon = "__pylandblock__/graphics/icons/tributyl-phosphate.png",
     icon_size = 64,
     default_temperature = 15,
     heat_capacity = "1KJ",
