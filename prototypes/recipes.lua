@@ -308,28 +308,6 @@ data:extend
 	order = "j2"
 	},
 	]]--
-	--nickel from clay
-
-	{
-	type = "recipe",
-	name = "nickel-alum-from-clay",
-	category = "hpf",
-	enabled = true,
-	energy_required = 6,
-	ingredients =
-		{
-			{type = "item", name = "clay", amount = 6},
-			{type = "fluid", name = "sulfuric-acid", amount = 20}
-		},
-	results =
-		{
-			{type = "item", name = "ore-nickel", amount = 2},
-			{type = "item", name = "ore-aluminium", amount = 1, probability = 0.2}
-		},
-	main_product = "ore-nickel",
-	subgroup = "py-quenching-ores",
-	order = "tailings-e"
-	},
 
 	--new item recipes:
 	{
@@ -376,38 +354,7 @@ data:extend
 	main_product = "pb-wrought-iron-plate",
 	result_count = 5
 	},
-	--new fluids for ree from ash
-	{
-	type = "recipe",
-	name = "propene-to-butanol",
-	ingredients =
-		{
-			{type = "fluid", name = "propene", amount = 50},
-			{type = "fluid", name = "hydrogen", amount = 50},
-			{type = "fluid", name = "carbon-dioxide", amount = 25}
-		},
-	results =
-		{
-			{type = "fluid", name = "butanol", amount = 50}
-		},
-	main_product = "butanol",
-	category = "electrolyzer"
-	},
-	{
-	type = "recipe",
-	name = "phosphorus-tricloride",
-	ingredients =
-		{
-			{type = "item", name = "powdered-phosphate-rock", amount = 10},
-			{type = "fluid", name = "chlorine", amount = 60}
-		},
-	results =
-		{
-			{type = "fluid", name = "phosphorus-tricloride", amount = 50}
-		},
-	main_product = "phosphorus-tricloride",
-	category = "electrolyzer"
-	},
+
 	--make phosphorous acid: not used atm
 	--[[
 	{
@@ -426,54 +373,11 @@ data:extend
 	main_product = "phosphorus-acid"
 	},
 	]]--
-	{
-	type = "recipe",
-	name = "phosphoryl-chloride",
-	ingredients =
-		{
-			{type = "fluid", name = "phosphorus-tricloride", amount = 20},
-			{type = "fluid", name = "oxygen", amount = 10}
-		},
-	results =
-		{
-			{type = "fluid", name = "phosphoryl-chloride", amount = 40}
-		},
-	main_product = "phosphoryl-chloride",
-	category = "electrolyzer"
-	},
-	{
-	type = "recipe",
-	name = "tributyl-phosphate",
-	ingredients =
-		{
-			{type = "fluid", name = "phosphoryl-chloride", amount = 10},
-			{type = "fluid", name = "butanol", amount = 30}
-		},
-	results =
-		{
-			{type = "fluid", name = "tributyl-phosphate", amount = 10},
-			{type = "fluid", name = "hydrogen-chloride", amount = 30},
-		},
-	main_product = "tributyl-phosphate",
-	category = "electrolyzer"
-	},
-	{
-	type = "recipe",
-	name = "ree-from-ash",
-	ingredients =
-		{
-			{type = "fluid", name = "tributyl-phosphate", amount = 20},
-			{type = "item", name = "ash", amount = 25}
-		},
-	results =
-		{
-			{type = "item", name = "rare-earth-ore", amount = 5},
-		},
-	main_product = "rare-earth-ore",
-	category = "electrolyzer"
-	},
+  
 }
 )
+
+
 
 RECIPE {
     type = "recipe",
@@ -602,3 +506,113 @@ RECIPE {
     subgroup = "py-alienlife-genetics",
     order = "a"
 }:add_unlock('xenobiology')
+
+-- -----------------------------------------------------------------------------------------------------------------------------
+--Nickel from clay
+-- -----------------------------------------------------------------------------------------------------------------------------
+RECIPE {
+    type = "recipe",
+    name = "nickel-alum-from-clay",
+    category = "hpf",
+    enabled = true,
+    energy_required = 6,
+    ingredients =
+      {
+        {type = "item", name = "clay", amount = 6},
+        {type = "fluid", name = "sulfuric-acid", amount = 20}
+      },
+    results =
+      {
+        {type = "item", name = "ore-nickel", amount = 2},
+        {type = "item", name = "ore-aluminium", amount = 1, probability = 0.2}
+      },
+    main_product = "ore-nickel",
+    subgroup = "py-quenching-ores",
+    order = "tailings-e"
+}:add_unlock('sulfur-processing')
+
+-- -----------------------------------------------------------------------------------------------------------------------------
+-- New fluids for ree from ash
+-- -----------------------------------------------------------------------------------------------------------------------------
+RECIPE {
+    type = "recipe",
+    name = "propene-to-butanol",
+    ingredients =
+      {
+        {type = "fluid", name = "propene", amount = 50},
+        {type = "fluid", name = "hydrogen", amount = 50},
+        {type = "fluid", name = "carbon-dioxide", amount = 25}
+      },
+    results =
+      {
+        {type = "fluid", name = "butanol", amount = 50}
+      },
+    main_product = "butanol",
+    category = "electrolyzer"
+}:add_unlock('rare-earth-tech')
+
+RECIPE {
+    type = "recipe",
+    name = "phosphorus-tricloride",
+    ingredients =
+      {
+        {type = "item", name = "powdered-phosphate-rock", amount = 10},
+        {type = "fluid", name = "chlorine", amount = 60}
+      },
+    results =
+      {
+        {type = "fluid", name = "phosphorus-tricloride", amount = 50}
+      },
+    main_product = "phosphorus-tricloride",
+    category = "electrolyzer"
+}:add_unlock('rare-earth-tech')
+  
+RECIPE {
+    type = "recipe",
+    name = "phosphoryl-chloride",
+    ingredients =
+      {
+        {type = "fluid", name = "phosphorus-tricloride", amount = 20},
+        {type = "fluid", name = "oxygen", amount = 10}
+      },
+    results =
+      {
+        {type = "fluid", name = "phosphoryl-chloride", amount = 40}
+      },
+    main_product = "phosphoryl-chloride",
+    category = "electrolyzer"
+}:add_unlock('rare-earth-tech')
+
+RECIPE {
+    type = "recipe",
+    name = "tributyl-phosphate",
+    ingredients =
+      {
+        {type = "fluid", name = "phosphoryl-chloride", amount = 10},
+        {type = "fluid", name = "butanol", amount = 30}
+      },
+    results =
+      {
+        {type = "fluid", name = "tributyl-phosphate", amount = 10},
+        {type = "fluid", name = "hydrogen-chloride", amount = 30},
+      },
+    main_product = "tributyl-phosphate",
+    category = "electrolyzer"
+}:add_unlock('rare-earth-tech')
+  
+  
+RECIPE {
+    type = "recipe",
+    name = "ree-from-ash",
+    ingredients =
+      {
+        {type = "fluid", name = "tributyl-phosphate", amount = 20},
+        {type = "item", name = "ash", amount = 25}
+      },
+    results =
+      {
+        {type = "item", name = "rare-earth-ore", amount = 5},
+      },
+    main_product = "rare-earth-ore",
+    category = "electrolyzer"
+}:add_unlock('rare-earth-tech')

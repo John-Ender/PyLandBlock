@@ -1,6 +1,6 @@
 {
 	"name": "pylandblock",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"factorio_version": "1.0",
 	"title": "Py Land Block",
 	"author": "Razahin",
@@ -18,5 +18,6 @@
 	"pyalienlife >= 1.0.0",
 	"?PyCoalTBaA >= 0.0.39",
   "! rso-mod >= 0.0.1"
+  "! PyBlock >= 0.0.1"
 	]
 }

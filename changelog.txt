@@ -1,4 +1,17 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2020-08-29
+  Changes:
+    - Gate nickel ore from clay behind sulfur processing due to its requirement on sulfuric acid
+    - Gate rare earth ore related fluid recipes behind rare earth technology
+    
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2020-08-28
+  Changes:
+    - Bug fix initial load from name change
+    
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2020-08-28
   Changes:
@@ -8,8 +21,3 @@ Date: 2020-08-28
     - Quick Start - Starting personal bots and equipment. Automation, Logistics, and Steel Processing technologies unlocked at the start. 
       The game is about automation, the player shouldn't have to slog for 10 hours to do the basics.
       
----------------------------------------------------------------------------------------------------
-Version: 0.1.1
-Date: 2020-08-28
-  Changes:
-    - Bug fix initial load from name change
