@@ -1,5 +1,5 @@
 {
-	"name": "PyLandBlock",
+	"name": "pylandblock",
 	"version": "0.1.0",
 	"factorio_version": "1.0.0",
 	"title": "Py Land Block",
@@ -16,6 +16,7 @@
 	"pyrawores >= 1.1.2",
 	"pypetroleumhandling >= 1.2.2",
 	"pyalienlife >= 1.0.0",
-	"?PyCoalTBaA >= 0.0.39"
+	"?PyCoalTBaA >= 0.0.39",
+  "! rso-mod >= 0.0.1"
 	]
 }
