@@ -14,6 +14,15 @@ local Y = -1
 
 local Tiles = {}
 
+local crashedshipparts =
+		{
+      "crash-site-spaceship-wreck-big-1",
+      "crash-site-spaceship-wreck-big-2",
+      "crash-site-spaceship-wreck-medium-1",
+      "crash-site-spaceship-wreck-medium-2",
+      "crash-site-spaceship-wreck-medium-3"
+		}
+
 -- -----------------------------------------------------------------------------------------------------------------------------
 -- Game Init
 -- -----------------------------------------------------------------------------------------------------------------------------
@@ -65,21 +74,8 @@ script.on_init(function(event)
 
   -- local t
 
-end)
-
-local crashedshipparts =
-		{
-      "crash-site-spaceship-wreck-big-1",
-      "crash-site-spaceship-wreck-big-2",
-      "crash-site-spaceship-wreck-medium-1",
-      "crash-site-spaceship-wreck-medium-2",
-      "crash-site-spaceship-wreck-medium-3"
-		}
-
-script.on_event(defines.events.on_player_created, function(event)
-
-  -- Find the ship and place the starting buildings
-  local ship = game.surfaces["nauvis"].find_entities_filtered{position={x=0, y=0}, radius=20, name="crash-site-spaceship", limit=1}
+    -- Find the ship and place the starting buildings
+  local ship = game.surfaces["nauvis"].find_entities_filtered{position={x=0, y=0}, radius=30, name="crash-site-spaceship", limit=1}
   
   if #ship == 1 and ship[1] ~= nil then 
     ship[1].insert({name="py-sinkhole", count=2})
@@ -98,7 +94,7 @@ script.on_event(defines.events.on_player_created, function(event)
     local x = math.random(-25,25)
     local y = math.random(-25,25)
 
-    local cs = game.surfaces["nauvis"].create_entity{name=pickedpiece,position={x,y},force=game.players[1].force}
+    local cs = game.surfaces["nauvis"].create_entity{name=pickedpiece, position={x,y}, force='neutral'}
 
   end
   
@@ -121,6 +117,14 @@ script.on_event(defines.events.on_player_created, function(event)
       end    
     end
   end
+  
+end)
+
+
+
+script.on_event(defines.events.on_player_created, function(event)
+
+
 end)
 
 local Rocks =
