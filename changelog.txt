@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2020-09-04
+  Changes:
+    - Update for parity with recent PyBlock release, adds uranium from seawater
+    - Mk00 Seaweed Farms now require steam as a fuel, updated raw coal from seaweed to compensate
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2020-08-30
+  Changes:
+    - Bug fix: Changes in 1.3 removed starting sinkhole and gas vent making start too difficult, added
+      wreckage containing these parts
+    - Multiplayer: Remove extraneous starting items when new players spawn in 
+  
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 2020-08-29
   Changes:

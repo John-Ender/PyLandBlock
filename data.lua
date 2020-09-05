@@ -15,15 +15,20 @@ require('prototypes/buildings/fwf-mk00')
 require('prototypes/buildings/slaughterhouse-mk00')
 require('prototypes/buildings/seaweed-crop-mk00')
 
---fix the goddamn ore numbers
+
 require("functions/functions")
 require("prototypes/itemgroups")
 require("prototypes/recipe-categories")
-require("prototypes/recipes")
 require("prototypes/technology")
 require("prototypes/item")
 require("prototypes/fluids")
 require("prototypes/entity")
+
+-- -----------------------------------------------------------------------------------------------------------------------------
+-- Recipes
+-- -----------------------------------------------------------------------------------------------------------------------------
+require("prototypes/recipes/recipes")
+require("prototypes/recipes/recipes-uranium")
 
 -- -----------------------------------------------------------------------------------------------------------------------------
 -- Modify the map gen presets for Py Land Block

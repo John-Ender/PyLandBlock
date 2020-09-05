@@ -49,11 +49,25 @@ ENTITY {
     crafting_categories = {"seaweed"},
     crafting_speed = 0.1,
     energy_source = {
-        type = "void",
-        usage_priority = "secondary-input",
-        emissions_per_minute = -25,
+      type = "fluid",
+      effectivity = 1,
+      emissions = 1,
+      fluid_box = {
+          base_area = 1,
+          height = 2,
+          base_level = -1,
+          pipe_covers = pipecoverspictures(),
+          pipe_connections =
+            {
+            {type = "input-output", position = {-7,0}},
+            {type = "input-output", position = {7, 0} },
+            },
+          filter = "steam",
+          production_type = "input-output",
+        },
+      scale_fluid_usage = true,
     },
-    energy_usage = "150kW",
+    energy_usage = "45kW",
     ingredient_count = 10,
     animation = {
         layers = {
