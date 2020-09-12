@@ -54,6 +54,9 @@ script.on_init(function(event)
   cs.insert({name="py-sinkhole", count=2})
   cs.insert({name="py-gas-vent", count=2})
   
+  local cs = game.surfaces["nauvis"].create_entity{name= "crash-site-spaceship-wreck-medium-2", position={7,7}, force='neutral'}
+  cs.insert({name="burner-quenching-tower", count=1})
+  
    -- Place some other starting wreckage
   local shippieces = math.random(12,14)
 

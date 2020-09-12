@@ -1,38 +1,61 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.10
+Date: 2020-09-12
+  Fixes:
+    - Fixed crash when PyCoalProcessing ore generation setting was set to true
+    - Hide PyCoalProcessing ore generation setting since it doesn't do anything when this mod is 
+      enabled
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 2020-09-07
+  Game Start QoL:
+    - Added quenching tower in wreckage to make bootstrapping more straight forward
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2020-09-07
+  Changes:
+    - Balancing pass on fuel required for Mk00 Seaweed farm, reduced by 1/3
+    - Fixed wrought iron plate icon
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2020-09-05
+  Changes:
+    - Update for parity with PyBlock 0.1.4. Uranium from seawater requires less buildings.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2020-09-04
+  Changes:
+    - Fix broken icon reference when released
+---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 2020-09-04
   Changes:
     - Update for parity with recent PyBlock release, adds uranium from seawater
     - Mk00 Seaweed Farms now require steam as a fuel, updated raw coal from seaweed to compensate
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2020-08-30
   Changes:
-    - Bug fix: Changes in 1.3 removed starting sinkhole and gas vent making start too difficult, added
-      wreckage containing these parts
+    - Bug fix: Changes in 1.3 removed starting sinkhole and gas vent making start too difficult,
+      added wreckage containing these parts
     - Multiplayer: Remove extraneous starting items when new players spawn in 
-  
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 2020-08-29
   Changes:
     - Bug fix: Modify game start wreckage spawn to be on game init instead of per player spawn.
       For multiplayer support.
-  
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
 Date: 2020-08-29
   Changes:
     - Gate nickel ore from clay behind sulfur processing due to its requirement on sulfuric acid
     - Gate rare earth ore related fluid recipes behind rare earth technology
-    
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2020-08-28
   Changes:
-    - Bug fix initial load from name change
-    
+    - Bug fix initial load from name change 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2020-08-28
@@ -40,6 +63,6 @@ Date: 2020-08-28
     - Initial version, based on PyBlock.
     - Remove map generation overwrite.
     - Remove all resource autospawning, create PyRawOres rocks with modified RSO
-    - Quick Start - Starting personal bots and equipment. Automation, Logistics, and Steel Processing technologies unlocked at the start. 
-      The game is about automation, the player shouldn't have to slog for 10 hours to do the basics.
-      
+    - Quick Start - Starting personal bots and equipment. Automation, Logistics, and Steel
+      Processing technologies unlocked at the start. The game is about automation, the
+      player shouldn't have to slog for 10 hours to do the basics.

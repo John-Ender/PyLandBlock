@@ -118,7 +118,7 @@ data:extend(
   {
     type = "item",
     name = "uranyl-nitrate",
-    icon = "__pylandblock__/graphics/icons/Uranylnitrate-crystals.png",
+    icon = "__pylandblock__/graphics/icons/uranylnitrate-crystals.png",
     icon_size = 64,
     flags = {},
     subgroup = 'py-rawores-uranium',
