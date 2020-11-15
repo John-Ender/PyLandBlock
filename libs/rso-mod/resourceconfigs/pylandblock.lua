@@ -25,14 +25,6 @@ function fillPyLandBlockConfig(config)
     'phosphate-rock',
   }
 
-  fluids = {
-    'oil-mk01',
-    'oil-mk02',
-    'oil-mk03',
-    'oil-mk04',
-    'sulfur-patch',
-    'tar-patch'
-  }
 
   for _, ore in ipairs(starterOres) do
     config[ore] = {
@@ -59,15 +51,23 @@ function fillPyLandBlockConfig(config)
     }
   end
 
-  for _, ore in ipairs(fluids) do
-    config[ore] = {
-      type="resource-liquid",
-      minimum_amount=500000,
-      allotment=60,
-      spawns_per_region={min=1, max=1},
-      richness={min=950000, max=1000000}, -- richness per resource spawn
-      size={min=2, max=3},
-      useOreScaling = true,
-    }
-  end 
+  config['sulfur-patch'] = {
+    type="resource-liquid",
+    minimum_amount=500000,
+    allotment=60,
+    spawns_per_region={min=1, max=1},
+    richness={min=950000, max=1000000}, -- richness per resource spawn
+    size={min=2, max=3},
+    useOreScaling = true,
+  }
+  
+  config["bitumen-seep"] = {
+		type="resource-liquid",
+		minimum_amount=1000,
+		allotment=60,
+		spawns_per_region={min=1, max=1},
+		richness={min=1000, max=2500}, -- richness per resource spawn
+		size={min=1, max=2},
+		useOreScaling = false,
+	}
 end

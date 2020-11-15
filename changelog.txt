@@ -1,4 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.12
+Date: 2020-11-15
+  Fixes:
+    - Enemy bases no longer spawn when turned off. 
+  Changes:
+    - Updated to support new Bitumen Seep added in recent PySuite updates
+    - Removed spawning of oil patches
+    - Removed spawning of tar patches
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+Date: 2020-09-13
+  Changes:
+    - Update for parity with PyBlock v0.1.5
+    - Massively rebalanced uranium chain as it needed far to many resources and entities at the needed scale for Py
+    - Added productivity to most uranium ore from seawater chain
+---------------------------------------------------------------------------------------------------
 Version: 0.1.10
 Date: 2020-09-12
   Fixes:

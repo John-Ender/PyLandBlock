@@ -11,7 +11,7 @@ RECIPE {
         {type = 'fluid', name = 'acetic-acid', amount = 50},
     },
     results = {
-        {type = "item", name = "sodium-acetate", amount = 15},
+        {type = "item", name = "sodium-acetate", amount = 40},
 
     },
     main_product = "sodium-acetate",
@@ -33,9 +33,9 @@ RECIPE {
     },
     results = {
         {type = "fluid", name = "ethane", amount = 40},
-        {type = "fluid", name = "carbon-dioxide", amount = 50},
-        {type = "fluid", name = "hydrogen", amount = 25},
-        {type = "item", name = "sodium-hydroxide", amount = 15},
+        {type = "fluid", name = "carbon-dioxide", amount = 40},
+        {type = "fluid", name = "hydrogen", amount = 15},
+        {type = "item", name = "sodium-hydroxide", amount = 5},
     },
     main_product = "ethane",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",
@@ -56,7 +56,7 @@ RECIPE {
         {type = "item", name = "fecl3", amount = 5},
     },
     results = {
-        {type = "fluid", name = "dichloroethane", amount = 20},
+        {type = "fluid", name = "dichloroethane", amount = 40},
         {type = "item", name = "fecl3", amount = 3},
     },
     main_product = "dichloroethane",
@@ -120,8 +120,8 @@ RECIPE {
         {type = 'fluid', name = 'water', amount = 200},
     },
     results = {
-        {type = "fluid", name = "ethylenediamine", amount = 50},
-        {type = "fluid", name = "hydrogen-chloride", amount = 60},
+        {type = "fluid", name = "ethylenediamine", amount = 100},
+        {type = "fluid", name = "hydrogen-chloride", amount = 40},
     },
     main_product = "ethylenediamine",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",
@@ -136,12 +136,12 @@ RECIPE {
     name = "nylon-rope",
     category = "crafting",
     enabled = false,
-    energy_required = 5,
+    energy_required = 3,
     ingredients = {
-        {type = 'item', name = 'nylon', amount = 6},
+        {type = 'item', name = 'nylon', amount = 12},
     },
     results = {
-        {type = "item", name = "nylon-rope", amount = 3},
+        {type = "item", name = "nylon-rope", amount = 15},
     },
     main_product = "nylon-rope",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",
@@ -155,13 +155,13 @@ RECIPE {
     name = "nylon-rope-coated",
     category = "hydroclassifier",
     enabled = false,
-    energy_required = 5,
+    energy_required = 3,
     ingredients = {
-        {type = 'item', name = 'nylon-rope', amount = 5},
-        {type = "fluid", name = "ethylenediamine", amount = 100},
+        {type = 'item', name = 'nylon-rope', amount = 10},
+        {type = "fluid", name = "ethylenediamine", amount = 75},
     },
     results = {
-        {type = "item", name = "nylon-rope-coated", amount = 5},
+        {type = "item", name = "nylon-rope-coated", amount = 10},
     },
     main_product = "nylon-rope-coated",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",
@@ -177,11 +177,11 @@ RECIPE {
     enabled = false,
     energy_required = 60,
     ingredients = {
-        {type = 'item', name = 'nylon-rope-coated', amount = 30},
-        {type = "fluid", name = "water", amount = 300},
+        {type = 'item', name = 'nylon-rope-coated', amount = 60},
+        {type = "fluid", name = "water", amount = 1000},
     },
     results = {
-        {type = "item", name = "nylon-rope-uranyl-soaked", amount = 30},
+        {type = "item", name = "nylon-rope-uranyl-soaked", amount = 60},
     },
     main_product = "nylon-rope-uranyl-soaked",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",
@@ -201,7 +201,7 @@ RECIPE {
         {type = "fluid", name = "tributyl-phosphate", amount = 75},
     },
     results = {
-        {type = "item", name = "uranyl-nitrate", amount = 5},
+        {type = "item", name = "uranyl-nitrate", amount = 10},
     },
     main_product = "uranyl-nitrate",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",
@@ -215,13 +215,13 @@ RECIPE {
     name = "uranium-ore",
     category = "leaching",
     enabled = false,
-    energy_required = 10,
+    energy_required = 8,
     ingredients = {
         {type = 'item', name = 'uranyl-nitrate', amount = 20},
         {type = "fluid", name = "kerosene", amount = 50},
     },
     results = {
-        {type = "item", name = "uranium-ore", amount = 2},
+        {type = "item", name = "uranium-ore", amount = 10},
     },
     main_product = "uranium-ore",
     --icon = "__pyalienlifegraphics__/graphics/icons/biosample.png",

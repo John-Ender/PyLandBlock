@@ -44,7 +44,8 @@ local ores = {
 	'oil-mk02',
 	'oil-mk03',
 	'oil-mk04',
-	'tar-patch'
+	'tar-patch',
+  'bitumen-seep'
 }
 
 for _, ore in ipairs(ores) do

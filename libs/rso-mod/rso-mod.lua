@@ -1132,9 +1132,9 @@ local function build_config_data(surface)
 			end
 
 			if settingsForResource then
-				local allotmentMod = 1 -- settingsForResource.frequency
-				local sizeMod = 1 --settingsForResource.size
-				local richnessMod = 1 --settingsForResource.richness
+				local allotmentMod = settingsForResource.frequency
+				local sizeMod = settingsForResource.size
+				local richnessMod = settingsForResource.richness
 				
 				if allotmentMod then
 					if isEntity then
